@@ -1,0 +1,40 @@
+.slideBox {
+  position: relative;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  .slideSearch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 40%;
+    background: rgba(0, 0, 0, 0.3);
+    font-weight: 500;
+    font-size: 36px;
+    color: white;
+
+    .fas {
+      margin-top: 10px;
+      position: relative;
+      left: 30px;
+    }
+  }
+  .searchInput {
+    width: 500px;
+    height: 40px;
+    margin-top: 20px;
+    border: none;
+    border-bottom: 3px solid white;
+    outline: none;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+}
