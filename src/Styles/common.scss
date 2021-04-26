@@ -1,0 +1,33 @@
+@import url('https://cdn..com/openhiun/hangul/14c0f6faa2941116bb53001d6a7dcd5e82300c3f/nanumbarungothic.css');
+
+@font-face {
+  font-family: '"Noto Sans KR", "Noto Sans Korean", "Roboto", "Sans-serif"';
+  src: url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400&display=swap')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+$PrimaryPink: #d91c84;
+$PrimarySeagreen: #03d1c3;
+$PrimaryLightGrey: #f5f5f5;
+$PrimaryGrey: #999999;
+$PrimaryBlack: #333333;
+$PrimaryWhite: #ffffff;
+
+%flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+%flex-all-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middlePosition {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
