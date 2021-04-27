@@ -1,0 +1,51 @@
+.includedOptions {
+  width: 80vw;
+  margin: 0 auto;
+
+  .innerWrap {
+    width: 60%;
+    margin: 64px 0;
+
+    .option {
+      border: 1px solid grey;
+      width: 100%;
+      height: 100%;
+      font-size: 17.6px;
+      display: flex;
+      justify-content: space-between;
+      border-radius: 5px;
+
+      p {
+        margin: 20px 10px;
+      }
+
+      button {
+        border: none;
+        width: 50px;
+      }
+    }
+    .optionDetail {
+      border-bottom: 1px solid grey;
+      border-left: 1px solid grey;
+      border-right: 1px solid grey;
+      padding: 15px 15px 30px 15px;
+      border-radius: 5px;
+
+      p {
+        width: 100%;
+        margin: 5px 0 10px 5px;
+        font-size: 17.6px;
+        line-height: 1.8;
+        font-weight: 500;
+      }
+
+      pre {
+        background-color: #fafafa;
+      }
+    }
+
+    .hide_optionDetail {
+      display: none;
+    }
+  }
+}

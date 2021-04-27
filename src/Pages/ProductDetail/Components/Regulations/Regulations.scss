@@ -1,0 +1,18 @@
+.regulations {
+  width: 80vw;
+  margin: 0 auto;
+  line-height: 1.4;
+  .innerWrap {
+    width: 60%;
+    margin: 64px 0 64px 20px;
+    ul {
+      li {
+        list-style: disc;
+        line-height: 2;
+      }
+    }
+    p {
+      margin: 16px 0;
+    }
+  }
+}

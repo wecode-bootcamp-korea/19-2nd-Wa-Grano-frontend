@@ -18,7 +18,7 @@ class Main extends Component {
   }
 
   render() {
-    // const { num } = this.state;
+    const { num } = this.state;
     return (
       <>
         <div
