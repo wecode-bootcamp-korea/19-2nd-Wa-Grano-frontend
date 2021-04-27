@@ -1,0 +1,22 @@
+%center {
+  width: 360px;
+  height: 40px;
+  border: 1px solid #e5e5e5;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button {
+  @extend %center;
+  background-color: #afafaf;
+}
+
+.validCheck {
+  @extend %center;
+  background: linear-gradient(to right, #ee0e69, #b83c9e);
+  background: linear-gradient(to bottom, #ee0e69, #b83c9e);
+  background: linear-gradient(to bottom right, #dc247b, #b83c9e);
+  background: linear-gradient(30deg, #ee0e69, #b83c9e);
+}

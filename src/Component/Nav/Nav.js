@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { withRouter } from 'react-router';
 import './Nav.scss';
 
 class Nav extends Component {
@@ -9,11 +10,16 @@ class Nav extends Component {
         <div className="navRightBar">
           <button className="navRightLanguageBtn">한국어</button>
           <button className="navRightWonBtn">KRW 대한민국 원(₩)</button>
-          <button className="navLogin">로그인</button>
+          <button
+            className="navLogin"
+            onClick={() => this.props.history.push('/login')}
+          >
+            로그인
+          </button>
         </div>
       </nav>
     );
   }
 }
 
-export default Nav;
+export default withRouter(Nav);
