@@ -1,0 +1,36 @@
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 68px;
+  padding: 0 50px;
+  border-bottom: 1px solid #eee;
+
+  img {
+    width: 152px;
+    height: 40px;
+  }
+
+  .navRightBar {
+    float: right;
+    padding: 9px 0 9px 0;
+
+    button {
+      border: 0;
+      outline: 0;
+      background-color: #fff;
+      color: #db2f8b;
+    }
+
+    .navRightWonBtn {
+      padding-right: 11px;
+    }
+
+    .navLogin {
+      padding: 6px 15px;
+      border: 1px solid #555;
+      border-radius: 26px;
+      color: black;
+    }
+  }
+}
