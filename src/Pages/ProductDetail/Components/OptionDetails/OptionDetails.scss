@@ -1,0 +1,21 @@
+.optionDetails {
+  width: 80vw;
+  height: 100%;
+  margin: 0 auto;
+  line-height: 1.4;
+  .innerWrap {
+    width: 60%;
+    margin: 64px 0;
+
+    img {
+      width: 100%;
+      height: 320px;
+      border-radius: 5px;
+    }
+
+    p {
+      margin-top: 20px;
+      margin-bottom: 32px;
+    }
+  }
+}

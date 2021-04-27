@@ -1,0 +1,63 @@
+.titleWrap {
+  background-color: black;
+  width: 100vw;
+}
+
+.description {
+  position: relative;
+  b {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 32px;
+    margin-left: 48px;
+    font-weight: 600;
+  }
+
+  .bookBox {
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-right: 150px;
+    border: 1px solid grey;
+    width: 400px;
+    height: 120px;
+    float: right;
+    position: sticky;
+    top: 100px;
+    display: flex;
+    // @extend %flex-all-center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    p {
+      margin-bottom: 15px;
+    }
+    button {
+      width: 300px;
+      height: 40px;
+      border-radius: 5px;
+      font-weight: 600;
+    }
+  }
+
+  .bookBox_black {
+    color: #fff;
+    background-color: black;
+    border: 1px solid white;
+
+    button {
+      background-color: #fff;
+      color: black;
+    }
+  }
+
+  .bookBox_white {
+    color: black;
+    background-color: #fff;
+
+    button {
+      background: black;
+      color: white;
+    }
+  }
+}

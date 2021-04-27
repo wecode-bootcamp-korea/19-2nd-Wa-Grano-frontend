@@ -1,0 +1,39 @@
+.title {
+  width: 80vw;
+  margin: 0 auto;
+
+  .headerWrap {
+    height: 150px;
+    border: 1px solid black;
+    width: 60%;
+    padding: 30px;
+    color: #fff;
+
+    p {
+      font-size: 24px;
+      font-weight: 700;
+    }
+
+    button {
+      background: none;
+      border: 1px solid white;
+      color: white;
+      margin: 20px 10px 16px 10px;
+      padding: 7px;
+    }
+  }
+
+  ul {
+    width: 60%;
+    border-top: 1px solid white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 32px;
+
+    li {
+      padding: 16px;
+      color: #fff;
+    }
+  }
+}
