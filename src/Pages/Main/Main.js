@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import Busan from './mainData';
-import './Main.scss';
+import Filter from '../Main/Filter/Filter';
 
 class Main extends Component {
   state = {
