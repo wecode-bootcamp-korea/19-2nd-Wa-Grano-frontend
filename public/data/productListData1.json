@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "url": "https://cdn.pixabay.com/photo/2016/10/13/09/06/travel-1737168__480.jpg",
+    "extraSaving": true,
+    "available": "내일부터 사용가능",
+    "title": "부산 켄트호텔 by 켄싱턴 스카이라운지 브런치",
+    "review": [],
+    "originalPrice": "₩ 35,900",
+    "price": "₩ 32,900",
+    "discount": "8% 할인"
+  },
+  {
+    "id": 2,
+    "url": "https://cdn.pixabay.com/photo/2015/04/20/17/38/swimming-pool-731886__480.jpg",
+    "extraSaving": false,
+    "available": "내일부터 사용가능",
+    "title": "롯데호텔부산 무궁화 레스토랑",
+    "review": [],
+    "originalPrice": "₩ 97,000",
+    "price": "₩ 87,300",
+    "discount": ""
+  },
+  {
+    "id": 3,
+    "url": "https://cdn.pixabay.com/photo/2015/09/21/09/53/villa-cortine-palace-949547__480.jpg",
+    "extraSaving": true,
+    "available": "내일부터 사용가능",
+    "title": "부산 켄트호텔 by 켄싱턴 스카이라운지 와인파티",
+    "review": [],
+    "originalPrice": "₩ 35,900",
+    "price": "₩ 25,900",
+    "discount": "28% 할인"
+  },
+  {
+    "id": 4,
+    "url": "https://cdn.pixabay.com/photo/2018/02/24/17/17/window-3178666__480.jpg",
+    "extraSaving": false,
+    "available": "내일부터 사용가능",
+    "title": "부산 파라다이스호텔 닉스그릴 - 디너 코스요리",
+    "review": [],
+    "originalPrice": "₩ 105,000",
+    "price": "₩ 94,500",
+    "discount": ""
+  },
+  {
+    "id": 5,
+    "url": "https://cdn.pixabay.com/photo/2015/11/06/11/45/interior-1026451__480.jpg",
+    "extraSaving": false,
+    "available": "내일부터 사용가능",
+    "title": "부산 파라다이스호텔 온더플레이트 뷔페",
+    "review": [],
+    "originalPrice": "₩ 85,000",
+    "price": "₩ 76,500",
+    "discount": ""
+  },
+  {
+    "id": 6,
+    "url": "https://cdn.pixabay.com/photo/2019/05/28/00/15/indoors-4234071_1280.jpg",
+    "extraSaving": false,
+    "available": "내일부터 사용가능",
+    "title": "TGI 프라이데이 (TGIF) - 부산동래점",
+    "review": [],
+    "originalPrice": "₩ 67,900",
+    "price": "₩ 42,400",
+    "discount": ""
+  },
+  {
+    "id": 7,
+    "url": "https://cdn.pixabay.com/photo/2015/06/12/12/10/castle-park-806854__480.jpg",
+    "extraSaving": false,
+    "available": "내일부터 사용가능",
+    "title": "부산 광안리 모치플레지르 브런치 카페 - 온라인 독점",
+    "review": [],
+    "originalPrice": "",
+    "price": "₩ 5,500",
+    "discount": ""
+  },
+  {
+    "id": 8,
+    "url": "https://cdn.pixabay.com/photo/2017/04/28/22/14/room-2269591__480.jpg",
+    "extraSaving": false,
+    "available": "내일부터 사용가능",
+    "title": "부산 수영구 오후의 홍차 - 온라인 독점",
+    "review": [],
+    "originalPrice": "",
+    "price": "₩ 6,500",
+    "discount": ""
+  },
+  {
+    "id": 9,
+    "url": "https://cdn.pixabay.com/photo/2016/08/29/20/52/los-angeles-1629161__480.jpg",
+    "extraSaving": false,
+    "available": "내일부터 사용가능",
+    "title": "스페인클럽 - 해운대점",
+    "review": [],
+    "originalPrice": "₩ 30,000",
+    "price": "₩ 28,500",
+    "discount": ""
+  },
+  {
+    "id": 10,
+    "url": "https://cdn.pixabay.com/photo/2019/11/19/04/30/oria-hotel-4636405__480.jpg",
+    "extraSaving": false,
+    "available": "내일부터 사용가능",
+    "title": "롯데호텔 부산 더 라운지 애프터눈 티 이용권",
+    "review": [],
+    "originalPrice": "₩ 50,000",
+    "price": "₩ 45,000",
+    "discount": ""
+  },
+  {
+    "id": 11,
+    "url": "https://cdn.pixabay.com/photo/2015/01/26/11/05/beach-612553__480.jpg",
+    "extraSaving": true,
+    "available": "내일부터 사용가능",
+    "title": "TGI 프라이데이 (TGIF) - 서면점",
+    "review": [],
+    "originalPrice": "₩ 67,900",
+    "price": "₩ 42,400",
+    "discount": ""
+  }
+]
