@@ -1,0 +1,145 @@
+[
+  {
+    "id": 1,
+    "url": "https://cdn.pixabay.com/photo/2020/10/18/09/16/bedroom-5664221__340.jpg",
+    "extraSaving": true,
+    "available": "내일부터 사용가능",
+    "title": "파라다이스 호텔 부산",
+    "review": [],
+    "originalPrice": "₩ 400,750",
+    "price": "₩ 302,750",
+    "discount": ""
+  },
+  {
+    "id": 2,
+    "url": "https://cdn.pixabay.com/photo/2014/07/31/00/30/vw-beetle-405876_1280.jpg",
+    "extraSaving": false,
+    "available": "내일부터 사용가능",
+    "title": "시그니엘 부산",
+    "review": [],
+    "originalPrice": "₩ 356,345",
+    "price": "₩ 250,000",
+    "discount": ""
+  },
+  {
+    "id": 3,
+    "url": "https://cdn.pixabay.com/photo/2017/08/24/10/35/rolls-royce-2676263__480.jpg",
+    "extraSaving": true,
+    "available": "오늘부터 사용가능",
+    "title": "신라스테이 해운대",
+    "review": [],
+    "originalPrice": "₩ 144,760",
+    "price": "₩ 100,000",
+    "discount": ""
+  },
+  {
+    "id": 4,
+    "url": "https://cdn.pixabay.com/photo/2015/10/27/04/55/pond-resort-1008326_1280.jpg",
+    "extraSaving": false,
+    "available": "내일부터 사용가능",
+    "title": "라마다 앙코르 해운대",
+    "review": [],
+    "originalPrice": "₩ 92,808",
+    "price": "₩ 85,000",
+    "discount": ""
+  },
+  {
+    "id": 5,
+    "url": "https://cdn.pixabay.com/photo/2015/06/21/15/04/jamaica-816673_1280.jpg",
+    "extraSaving": false,
+    "available": "내일부터 사용가능",
+    "title": "힐튼 부산",
+    "review": [],
+    "originalPrice": "₩ 373,751",
+    "price": "₩ 240,00",
+    "discount": ""
+  },
+  {
+    "id": 6,
+    "url": "https://cdn.pixabay.com/photo/2019/11/19/04/30/oria-hotel-4636405__480.jpg",
+    "extraSaving": false,
+    "available": "내일부터 사용가능",
+    "title": "파크 하얏트 부산",
+    "review": [],
+    "originalPrice": "₩ 299,200",
+    "price": "₩ 210,000",
+    "discount": ""
+  },
+  {
+    "id": 7,
+    "url": "https://cdn.pixabay.com/photo/2015/01/10/11/39/hotel-595121__480.jpg",
+    "extraSaving": false,
+    "available": "내일부터 사용가능",
+    "title": "라발스호텔",
+    "review": [],
+    "originalPrice": "₩ 97,500",
+    "price": "₩ 48,000",
+    "discount": ""
+  },
+  {
+    "id": 8,
+    "url": "https://cdn.pixabay.com/photo/2014/10/16/08/39/bedroom-490779__480.jpg",
+    "extraSaving": false,
+    "available": "오늘부터 사용가능",
+    "title": "크라운 하버 호텔 부산",
+    "review": [],
+    "originalPrice": "",
+    "price": "₩ 68,112",
+    "discount": ""
+  },
+  {
+    "id": 9,
+    "url": "https://cdn.pixabay.com/photo/2017/12/06/08/12/pool-3001209__480.jpg",
+    "extraSaving": false,
+    "available": "내일부터 사용가능",
+    "title": "부산 웨스틴조선호텔",
+    "review": [],
+    "originalPrice": "₩ 261,360",
+    "price": "₩ 213,000",
+    "discount": ""
+  },
+  {
+    "id": 10,
+    "url": "https://cdn.pixabay.com/photo/2015/11/06/11/45/interior-1026451__480.jpg",
+    "extraSaving": false,
+    "available": "내일부터 사용가능",
+    "title": "해운대 MS호텔",
+    "review": [],
+    "originalPrice": "₩ 126,801",
+    "price": "₩ 80,000",
+    "discount": ""
+  },
+  {
+    "id": 11,
+    "url": "https://cdn.pixabay.com/photo/2018/08/06/19/49/design-3588214__480.jpg",
+    "extraSaving": true,
+    "available": "내일부터 사용가능",
+    "title": "롯데 호텔 부산",
+    "review": [],
+    "originalPrice": "₩ 184,840",
+    "price": "₩ 120,000",
+    "discount": ""
+  },
+  {
+    "id": 12,
+    "url": "https://cdn.pixabay.com/photo/2016/04/15/11/45/hotel-1330841__480.jpg",
+    "extraSaving": true,
+    "available": "내일부터 사용가능",
+    "title": "센텀 프리미어 호텔",
+    "review": [],
+    "originalPrice": "₩ 88,000",
+    "price": "₩ 70,000",
+    "discount": ""
+  },
+  {
+    "id": 13,
+    "url": "https://cdn.pixabay.com/photo/2015/09/21/09/54/villa-cortine-palace-949552__480.jpg",
+    "extraSaving": true,
+    "available": "오늘부터 사용가능",
+    "title": "호메르스 호텔",
+    "review": [],
+    "originalPrice": "₩ 76,897",
+    "price": "₩ 50,000",
+    "discount": ""
+  }
+]

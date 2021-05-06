@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Filter from '../Main/Filter/Filter';
+// import Filter from '../Main/Filter/Filter';
 
 class Main extends Component {
   state = {
@@ -15,11 +15,11 @@ class Main extends Component {
   }
 
   render() {
-    const { num } = this.state;
+    // const { num } = this.state;
     return (
       <div
         className="slideBox"
-        style={{ backgroundImage: `url("${Busan[num].img}")` }}
+        // style={{ backgroundImage: `url("${Busan[num].img}")` }}
       >
         <div className="slideSearch">
           <p>부산의 명소를 검색해보세요.</p>

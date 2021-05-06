@@ -5,7 +5,6 @@ import Filter from '../src/Pages/Main/Filter/Filter';
 import SignUp from '../src/Pages/SignUp/SignUp';
 import Login from '../src/Pages/Login/Login';
 import ProductList from '../src/Pages/ProductList/ProductList';
-import Nav from '../src/Component/Nav/Nav';
 import ProductDetail from '../src/Pages/ProductDetail/ProductDetail';
 
 class Routes extends React.Component {
@@ -19,8 +18,7 @@ class Routes extends React.Component {
           <Route exact path="/sign-up" component={SignUp} />
           <Route exact path="/login" component={Login} />
           <Route exact path="/product-list" component={ProductList} />
-          <Route exact path="/product-detail" component={ProductDetail} />
-          <Route exact path="/nav" component={Nav} />
+          <Route exact path="/product-detail:id" component={ProductDetail} />
         </Switch>
       </Router>
     );
