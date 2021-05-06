@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "url": "https://cdn.pixabay.com/photo/2017/06/16/11/43/santorini-2408868__480.jpg",
+    "extraSaving": true,
+    "available": "오늘부터 사용가능",
+    "title": "부산 엑스더스카이 엘시티 전망대(유효기간: 2021년 6월 30일)",
+    "review": [],
+    "originalPrice": "₩ 27,000",
+    "price": "₩ 24,300",
+    "discount": ""
+  },
+  {
+    "id": 2,
+    "url": "https://cdn.pixabay.com/photo/2020/09/16/11/48/donkeys-5576167_1280.jpg",
+    "extraSaving": false,
+    "available": "오늘부터 사용가능",
+    "title": "부산 해운대 요트와 요트투어",
+    "review": [],
+    "originalPrice": "₩ 60,000",
+    "price": "₩ 10,000",
+    "discount": ""
+  },
+  {
+    "id": 3,
+    "url": "https://cdn.pixabay.com/photo/2016/09/18/03/28/travel-1677347_1280.jpg",
+    "extraSaving": true,
+    "available": "내일부터 사용가능",
+    "title": "부산 캐니언파크 입장권 - 단독 할인",
+    "review": [],
+    "originalPrice": "₩ 17,000",
+    "price": "₩ 11,900",
+    "discount": ""
+  },
+  {
+    "id": 4,
+    "url": "https://cdn.pixabay.com/photo/2017/06/16/11/43/santorini-2408868__480.jpg",
+    "extraSaving": false,
+    "available": "오늘부터 사용가능",
+    "title": "씨라이프 부산 아쿠아리움 입장권",
+    "review": [],
+    "originalPrice": "₩ 29,000",
+    "price": "₩ 17,000",
+    "discount": "쿠폰 적용가"
+  },
+  {
+    "id": 5,
+    "url": "https://cdn.pixabay.com/photo/2015/08/25/03/28/resort-906109_1280.jpg",
+    "extraSaving": false,
+    "available": "내일부터 사용가능",
+    "title": "부산 송도해상케이블카 왕복권 - 단독 최저가",
+    "review": [],
+    "originalPrice": "₩ 11,000",
+    "price": "₩ 9,000",
+    "discount": "쿠폰 적용가"
+  },
+  {
+    "id": 6,
+    "url": "https://cdn.pixabay.com/photo/2015/11/07/11/02/terrace-1030758__480.jpg",
+    "extraSaving": false,
+    "available": "오늘부터 사용가능",
+    "title": "부산 수영구 오후의 홍차 - 온라인 독점",
+    "review": [],
+    "originalPrice": "",
+    "price": "₩ 6,500",
+    "discount": ""
+  },
+  {
+    "id": 7,
+    "url": "https://cdn.pixabay.com/photo/2017/08/07/09/25/swimming-2601877__480.jpg",
+    "extraSaving": false,
+    "available": "오늘부터 사용가능",
+    "title": "",
+    "review": [],
+    "originalPrice": "10,000",
+    "price": "₩ 13,400",
+    "discount": ""
+  }
+]
