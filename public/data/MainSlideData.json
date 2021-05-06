@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSd9lmy-JZZRQiO0G4o8VQ6JJ5AlC7kOAWpBI0IF6reU9Q3p7wxaSgdGTLiIPRHmidpWBV3pj2bKqKxERb_bh2vsQ",
+    "text": "해운대"
+  },
+  {
+    "id": 2,
+    "img": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRQcz-LNu5Sq3rhM3kEt_F93V3hDZ7TyBPGM6BHZmYT_kNqsIsNn0DSJgfRspKFv5t7yWQMyI9s7AL6pR9b8GTHXQ",
+    "text": "광안대교"
+  },
+  {
+    "id": 3,
+    "img": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQ-GFxUv4TuvlrGLFmVHf0tal63lRiZYd_Jd4kNFwni5KcYxI6t0hxLlRuEqR28eZhRbcNvUPPrg99NIJW9tM-fdg",
+    "text": "감천 문화 마을"
+  },
+  {
+    "id": 4,
+    "img": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTBlhse1YpuxNdeAr9_W9I7yI0Y2fbOXuHuQs6a7OY7OuSP-BF5tDZuhbGr8vp_R4RfXLc_31e5L66ceBaD0q2TVg",
+    "text": "용두산 공원"
+  },
+  {
+    "id": 5,
+    "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTf20xSmJziNv7wc68Rn4KaAzeLODPb03_kCsunWp4xRSMMGE6SY1Owx9q1ApWIoCmYKHHlDaRiqcRBWfS6tMqNcg",
+    "text": "태종대"
+  },
+  {
+    "id": 6,
+    "img": "https://lh5.googleusercontent.com/p/AF1QipP_qooqybjrN2zv0Swb3ZtSLsJOKbgFrOLQO5b7=w592-h404-n-k-no",
+    "text": "국제시장"
+  },
+  {
+    "id": 7,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD2HwNQxljM4RtZHsOIXeIBxQt84_PNQWTLYg-1nV5-W6f4GAfXiCzbxQh--2JvBiE9huBcxXuDv9Wk5ZBVe3stg",
+    "text": "오륙도"
+  },
+  {
+    "id": 8,
+    "img": "https://lh5.googleusercontent.com/p/AF1QipP04E44QTlqa3n5o0mdGIuxWVKHR16f3V8FdPRQ=w296-h202-n-k-no-v1",
+    "text": "더 베이"
+  }
+]
