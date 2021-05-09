@@ -8,6 +8,7 @@ import './ProductList.scss';
 
 class ProductList extends Component {
   render() {
+    window.scrollTo(0, 0);
     return (
       <main>
         <Nav />

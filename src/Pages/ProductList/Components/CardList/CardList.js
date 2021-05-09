@@ -59,8 +59,8 @@ class CardList extends Component {
           <article className="cardList">
             <header>레스토랑도 할인 받으세요.</header>
             <div className="cardListBox">
-              {restaurants.map(card => (
-                <Card key={card.id} card={card} move={move} />
+              {restaurants.map((card, index) => (
+                <Card key={card.id} card={card} move={move} index={index} />
               ))}
             </div>
           </article>

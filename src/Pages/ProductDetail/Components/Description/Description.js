@@ -16,7 +16,6 @@ class Description extends Component {
   }
 
   handleScroll = () => {
-    console.log(window.scrollY);
     let newBox = '';
 
     if (window.scrollY >= 800) {

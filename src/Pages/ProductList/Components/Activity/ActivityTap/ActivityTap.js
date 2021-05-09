@@ -47,7 +47,7 @@ class ActivityTap extends Component {
   state = {
     isActive: '',
     minPrice: 0,
-    maxPrice: 0,
+    maxPrice: 40000,
     isCategoryClick: Array(CATEGORILIST.length).fill(false),
   };
 

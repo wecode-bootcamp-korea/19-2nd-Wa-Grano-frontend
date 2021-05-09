@@ -13,15 +13,21 @@ class Card extends Component {
       : this.setState({ isActive: true });
   };
 
+  handlefirst = index => {
+    if (index === 0) this.props.history.push('/product-detail');
+  };
+
   render() {
-    const { card, move } = this.props;
+    const { card, move, index } = this.props;
     return (
-      <div className="card" style={{ transform: `translateX(${move}px)` }}>
-        <img
-          src={card.url}
-          alt="카드 이미지입니다."
-          // onClick={() => this.props.history.push(`/product/detail/${id}`)}
-        />
+      <div
+        className="card"
+        style={{ transform: `translateX(${move}px)` }}
+        onClick={() => {
+          this.handlefirst(index);
+        }}
+      >
+        <img src={card.url} alt="카드 이미지입니다." />
         <div className="cardContent">
           <h1>{card.available}</h1>
           <h2>{card.title}</h2>

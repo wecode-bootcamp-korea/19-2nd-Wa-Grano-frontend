@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import Filter from '../Main/Filter/Filter';
 import MainSlide from './MainSlide/MainSlide';
 import Busan from './mainData';
+import Nav from '../../Component/Nav/Nav';
 import './Main.scss';
+import Footer from '../../Component/Footer/Footer';
 
 class Main extends Component {
   state = {
@@ -11,6 +13,7 @@ class Main extends Component {
   };
 
   componentDidMount() {
+    // 1. 화면 슬라이드
     setInterval(() => {
       const { num } = this.state;
       this.setState({ num: num + 1 > 3 ? 0 : num + 1 });
@@ -21,6 +24,7 @@ class Main extends Component {
     const { num } = this.state;
     return (
       <>
+        <Nav />
         <div
           className="slideBox"
           style={{ backgroundImage: `url("${Busan[num].img}")` }}
@@ -39,6 +43,7 @@ class Main extends Component {
         </div>
         <Filter />
         <MainSlide />
+        <Footer />
       </>
     );
   }
