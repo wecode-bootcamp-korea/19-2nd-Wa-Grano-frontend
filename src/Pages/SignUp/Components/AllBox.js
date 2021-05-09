@@ -39,7 +39,7 @@ export default class AllBox extends Component {
   componentDidUpdate(prevProps, prevState) {
     if (this.state.allchecked !== prevState.allchecked) {
       if (this.state.allchecked) {
-        console.log('pass');
+        // console.log('pass');
         this.setState({
           checked0: true,
           checked1: true,

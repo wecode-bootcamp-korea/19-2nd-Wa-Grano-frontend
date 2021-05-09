@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import '../MainSlide/MainSlide.scss';
+import { withRouter } from 'react-router-dom';
+import { API } from '../../../config';
 
 class MainSlide extends Component {
   constructor(props) {
@@ -7,6 +9,7 @@ class MainSlide extends Component {
     this.state = {
       mainSlideData: [],
       x: 0,
+      hotPlace: [],
     };
   }
 
@@ -18,19 +21,39 @@ class MainSlide extends Component {
           mainSlideData: response,
         });
       });
+    // fetch(`${API}/products/destination`)
+    //   .then(res => res.json())
+    //   .then(res => {
+    //     this.setState({ hotPlace: res }, () => {
+    //       console.log(this.state.hotPlace);
+    //     });
+    //   });
+    // this.setState.test();
   }
 
-  nextButton = () => {
-    const { x } = this.state;
+  // test = () => {
+  //   fetch(`${API}/products/destination`)
+  //     .then(res => res.json())
+  //     .then(res => {
+  //       this.setState({ hotPlace: res }, () => {
+  //         console.log(this.state.hotPlace);
+  //       });
+  //     });
+  // };
+  // nextButton = () => {
+  //   const { x } = this.state;
 
-    this.setState({ x: x - 180 }, () => {
-      console.log(this.state.x);
-    });
+  //   this.setState({ x: x - 180 }, () => {
+  //     console.log(this.state.x);
+  //   });
+  // };
+
+  goToList = index => {
+    if (index === 0) this.props.history.push('/product-list');
   };
 
   render() {
-    const { x } = this.state;
-
+    // const { test } = this.setState;
     return (
       <div>
         <div className="mainPageContainer">
@@ -43,24 +66,25 @@ class MainSlide extends Component {
                 </div>
               </div>
             </div>
-            {console.log({ x })}
             <div className="mainImgContainer">
               <i
                 class="fas fa-chevron-circle-right"
                 onClick={this.nextButton}
               />
-              {this.state.mainSlideData.map(ele => {
+              {this.state.mainSlideData.map((ele, index) => {
                 return (
                   <>
                     <div
                       className="mainImg"
-                      style={{ transform: `translateX(${x}px)` }}
+                      style={{ transform: `translateX(${this.state.x}px)` }}
                       key={ele.id}
                     >
                       <img
                         className="imgDetail"
                         src={ele.img}
                         alt="detailImage"
+                        index={index}
+                        onClick={() => this.goToList(index)}
                       />
                       <div className="mainText">{ele.text}</div>
                     </div>
@@ -75,4 +99,4 @@ class MainSlide extends Component {
   }
 }
 
-export default MainSlide;
+export default withRouter(MainSlide);

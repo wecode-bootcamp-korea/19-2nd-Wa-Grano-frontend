@@ -2,6 +2,7 @@ import { Component } from 'react';
 import { withRouter } from 'react-router';
 import Form from './Components/Form';
 import Nav from '../../Component/Nav/Nav';
+import Footer from '../../Component/Footer/Footer';
 import './Login.scss';
 
 class Login extends Component {
@@ -26,6 +27,7 @@ class Login extends Component {
             data={inputData}
           />
         </div>
+        <Footer />
       </>
     );
   }
